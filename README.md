@@ -3,7 +3,7 @@
 ## Información del Estudiante
 
 - **Nombre completo**: Rubén Mora
-- **Carrera**: Ingeniería en Sistemas Computacionales
+- **Carrera**: Ingeniería de Software
 - **Semestre**: 4to
 
 ## Resumen de la Estructura del Caso de Estudio
