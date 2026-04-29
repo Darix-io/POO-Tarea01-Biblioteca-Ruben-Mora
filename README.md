@@ -30,4 +30,11 @@ Básicamente, desarrollamos un sistema en Python para gestionar el día a día d
 - Devolución de libros.
 - Gestión de préstamos activos.
 
+### Generación de Datos Aleatorios
+
+Para facilitar las pruebas y demostraciones, el proyecto utiliza la librería `Faker` para generar datos aleatorios de libros y estudiantes. Esto permite crear instancias variadas sin necesidad de datos hardcodeados.
+
+- **Libros**: Se generan ISBN válidos, títulos y autores aleatorios.
+- **Estudiantes**: Se crean cédulas ficticias, nombres, apellidos y carreras aleatorias de una lista predefinida.
+
 Gracias a este diseño, cada parte del sistema tiene una función bien definida, lo que hace que el código sea más ordenado y fácil de entender.

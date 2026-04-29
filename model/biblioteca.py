@@ -63,8 +63,10 @@ class Biblioteca:
                 activos.append(prestamo)
         return activos
         
-    def __str__(self) -> str:
-        return (f"Biblioteca '{self._nombre}' | "
-            f"Libros: {len(self._libros)} |"
-            f"Estudiantes: {len(self._estudiantes)} | "
-            f"Préstamos: {len(self._prestamos)}")
+    @property
+    def libros(self) -> list:
+        return self._libros
+    
+    @property
+    def estudiantes(self) -> list:
+        return self._estudiantes
